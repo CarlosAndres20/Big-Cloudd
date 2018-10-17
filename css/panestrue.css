@@ -1,0 +1,246 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.header{
+	margin: 35px auto;
+	width: 95%;
+	max-width: 80%;
+}
+body{
+	background: #E8E8E8;
+}
+.logo{
+	background: white;
+	padding: 1px;
+}
+.h1{
+	font-size: 96px;
+	font-family: "arial";
+}
+h2{
+	color: white;
+	background: white;
+	padding: 20px;
+}
+.Nfondo{
+	background: #4C4644;
+	color: white;
+	padding: 45px;
+	padding-left: 47px;
+	padding-right: 47px; 
+	font-size: 45px;
+	font-family: "arial";
+}
+.planes{
+	padding-left: 19px;
+}
+.numero1{
+	border:3px 3px;
+	border-right: 1px solid white;
+	color: #16EB1B;
+	font-size: 100px;
+	padding: 0px 6px 0px 0px;
+}
+.numero2{
+	border: 3px 3px;
+	border-right: 1px solid white;
+	color: #F7551C;
+	font-size: 100px;
+	padding: 0px 6px 0px 0px;
+}
+.numero3{
+	border: 3px 3px;
+	border-right: 1px solid white;
+	color: #33DBB5;
+	font-size: 100px;
+	padding: 0px 6px 0px 0px;
+}
+.bordeabajo{
+	border-bottom: 1px solid #8C8C8C;
+	text-align: center;
+	font-size: 35px;
+	font-family: "arial";
+	color: #595959;
+}
+.borde1{
+	border-bottom: 1px solid #4B4A4A;
+	text-align: center;
+	font-size: 35px;
+	font-family: "arial";
+	color: #595959;
+}
+.borde2{
+	border-bottom: 1px solid #AEAEAE;
+	text-align: center;
+	font-size: 35px;
+	font-family: "arial";
+	color: #595959;
+}
+.Lnegrilla{
+	border-bottom: 1px solid #8C8C8C;
+	font-size: 23px;
+	text-align: center;
+	font-size: 50px;
+	font-family: "arial";
+}
+.titulorojo{
+	color: #E92424;
+	font-size: 40px;
+	padding-left: 140px;
+	padding-top: 90px;
+}
+.titulorojo1{
+	color: #E92424;
+	font-size: 40px;
+}
+.bordeabajo1{
+	border-bottom: 1px solid #8C8C8C;
+	font-size: 25px;
+}
+.borde10{
+	border-bottom: 1px solid #4B4A4A;
+	font-size: 25px;
+}	
+.borde20{
+	border-bottom: 1px solid #AEAEAE;
+	font-size: 25px;
+}
+.contratar a{
+	text-decoration: none;
+	color: white;
+	background: #F3094B;
+	padding: 20px;
+	font-size: 38px;
+	font-family: "arial";
+}
+.contratar{
+	margin: 80px 0px 107px 64.5%;
+}
+.tabla .borderbajo1,.bordeabajo,.borde2,.borde10,.borde1,.borde20,.Lnegrilla{
+	padding: 27px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+footer{
+	background: black;
+	color: white;
+	border-top: 19px solid #F3094B;
+	padding: 40px;
+	font-size: 32px;
+}
+footer .header {
+	padding-top: 72px;
+}
+footer .header a{
+	color: #C2C2C2;
+}
+@media only screen and (max-width: 1500px){
+	.fondo{
+		background-image: url('../img/fondo.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+}
+@media (max-width: 1225px){
+		.fondo{
+			background: #E8E8E8;
+		}
+		h2{
+			background-image: url('../img/fondohola.jpg');
+		}
+}
+   .fondo .header {
+	background: #E8E8E8;
+}
+.titulorojo span{
+	
+	margin-top: 10px;
+}
+.fixed .main li{
+	display: block;	
+}
+.main .face,.bird,.g,.pinter,.messaje{
+	display: block;
+}
+li{
+	font-size: 20px;
+	margin: 5px;
+}
+.face{
+	background-color: #3642D1;
+	color: white;
+	padding: 20px;
+	border-radius: 50%;
+	border:  1px solid white;
+}
+.bird{
+	background-color: deepskyblue;
+	color: white;
+	padding: 20px;
+	border-radius: 80%;
+	border:  1px solid white;
+}
+.g{
+	background-color:crimson;
+	color: white;
+	padding: 18px;
+	border-radius: 80%;
+	border:  1px solid white;
+}
+.pinter{
+	background-color: #CE0023;
+	color: white;
+	padding: 20px;
+	border-radius: 80%;
+	border:  1px solid white;
+}
+.messaje{
+	background-color: mediumseagreen;
+	color: white;
+	padding: 20px;
+	border-radius: 80%;
+	border: 1px solid white;
+}
+.fixed .main li,.face,.bird,.g,.pinter,.messaje{
+	display: block;
+	margin-right: 
+}
+.fixed{
+	position: fixed;
+	left: 0;
+	top: 300px;
+	z-index: 2000;
+}
+.main a:hover{
+	-moz-transform: scale(1.1) rotate(720deg);
+	-webkit-transform: scale(1.1) rotate(720deg);
+	-o-transform: scale(1.1) rotate(720deg);
+	-ms-transform: scale(1.1) rotate(720deg);
+	transform: scale(1.1) rotate(720deg);
+	-webkit-transition: all 1000ms ease-in-out;
+	-moz-transition: all 1000ms ease-in-out;
+	-ms-transition: all 1000ms ease-in-out;
+	-o-transition: all 1000ms ease-in-out;
+	transition: all 1000ms ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
